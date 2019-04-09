@@ -1,0 +1,15 @@
+.rooms {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin: 0 auto;
+}
+
+
+@media screen and (min-width: 768px){
+  .rooms {
+    width: 98%;
+  }
+}

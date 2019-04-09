@@ -1,28 +1,25 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Radium from 'radium';
 
+import './App.css';
+import contentData from './assets/availability.json'
+
+import Header from './components/Header/Header';
+import RoomList from './components/RoomList/RoomList';
 class App extends Component {
+  
+  state= {
+    hotels: contentData.hotels
+  }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Header hotels={this.state.hotels} />
+        <RoomList hotels={this.state.hotels} />
       </div>
     );
   }
 }
 
-export default App;
+export default Radium(App);

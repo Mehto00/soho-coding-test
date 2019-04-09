@@ -20,7 +20,7 @@
 
 .header__carousel {
   width: 100%;
-  height: 300px;
+  height: 200px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -45,7 +45,7 @@
 
 @media screen and (min-width: 768px){
   .header__carousel {
-    height: 250px;
+    height: 300px;
   }
 }
 

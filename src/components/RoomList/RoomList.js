@@ -14,6 +14,10 @@ const RoomsList = (props) => {
   
   return(
     <section className="rooms">
+      <div className="rooms__ribbon">
+        <div className="rooms__ribbon__half rooms__type"><span>Choose rooms for 1</span></div>
+        <div className="rooms__ribbon__half rooms__visitor-count"><span>1 Adult</span></div>
+      </div>
       {rooms}
     </section>
   )

@@ -10,7 +10,8 @@
 
 # production
 /build
-/src/assets
+/src/assets/availability.json
+/src/assets/mobile_ui.png
 
 # misc
 .DS_Store

@@ -1,11 +1,11 @@
 
 import React from 'react';
-import './Room.css'
+import './Room.scss'
 
 const Room = (props) => {
   
   const imgstyling = {
-    backgroundImage: 'url(' + props.room.imageURLs + ')',
+    backgroundImage: 'url(' + props.room.imageURLs[0] + ') ',
     borderRadius: "5px 0 0 5px"
   } 
 

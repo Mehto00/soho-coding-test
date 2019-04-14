@@ -1,0 +1,68 @@
+/* 
+   > =========== Disclaimer =========== <
+   Ugly styling overrides for Nuka-Carousel with lots of !important.
+   If this was every to become a real life project I think the whole 
+   carousel thingy should maybe be rethinked and -designed. Still,
+   choose to do this as below because I think this sort of carousel 
+   serves it's purpose as mockup pretty well.
+*/
+
+.carousel {
+  height: 200px !important;
+
+  @media screen and (min-width: 768px) {
+    height: 300px !important;
+  }
+
+  @media screen and (min-width: 1200px) {
+    height: 400px !important;
+  }
+}
+
+.slider-control-bottomcenter {
+  &>ul {
+    top: -15px;
+
+    @media screen and (min-width: 480px) {
+      top: -5px;
+    }
+
+    @media screen and (min-width: 768px) {
+      top: -5px;
+    }
+
+    &>li>button {
+      color: #fff !important;
+      font-size: 32px !important;
+
+      &:focus {
+        outline: 0;
+      }
+
+      @media screen and (min-width: 768px) {
+        font-size: 50px !important;
+      }
+    }
+  }
+}
+
+.slider-control-centerleft,
+.slider-control-centerright {
+  top: 45% !important;
+}
+
+.slider-slide>img {
+  transform: translateY(0px);
+
+  @media screen and (min-width: 480px) {
+    transform: translateY(-100px);
+  }
+
+  @media screen and (min-width: 768px) {
+    transform: translateY(-100px);
+  }
+
+  @media screen and (min-width: 1200px) {
+    transform: translateY(-150px);
+  }
+}

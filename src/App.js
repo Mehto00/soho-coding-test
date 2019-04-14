@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Radium from 'radium';
 
-import './App.css';
+import './App.scss';
 import contentData from './assets/availability.json'
 
 import Header from './components/Header/Header';

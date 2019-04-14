@@ -1,0 +1,83 @@
+.room {
+  &__item {
+    background-color: #fff;
+    height: 110px;
+    margin: 0 0.2rem 0.5rem;
+
+    display: flex;
+    flex: 1 0 90%;
+
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px 0.2px rgba(0, 0, 0, 0.2);
+
+    @media screen and (min-width: 768px) {
+      flex: 0 0 48%;
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__half {
+    &__image {
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+
+      flex: 1 1 52%;
+    }
+
+    &__content {
+      display: flex;
+      flex: 1 1 48%;
+      flex-direction: column;
+      justify-content: center;
+
+      margin-left: 0.6rem;
+
+      @media screen and (min-width: 768px) {
+        margin-left: 1.2rem;
+      }
+    }
+  }
+
+  &__title {
+    margin: 0 0 0 0.4rem;
+    padding-right: 0.5rem;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 900;
+    text-transform: uppercase;
+
+    @media screen and (min-width: 768px) {
+      margin: 0.2rem 0;
+      font-size: 0.9rem;
+    }
+  }
+
+  &__btn {
+    background-color: #A90024;
+    transition: background-color 0.1s ease-in-out;
+    color: #fff;
+    width: 105px;
+
+    margin-top: 0.4rem;
+    padding: 0.4rem;
+
+    border: none;
+    border-radius: 25px;
+
+    font-size: 0.8rem;
+    font-weight: 900;
+
+    &:hover,
+    &:active {
+      background-color: #c9022d;
+      transition: background-color 0.1s ease-in-out;
+    }
+
+    @media screen and (min-width: 768px) {
+      padding: 0.5rem 1rem;
+      width: 130px;
+    }
+  }
+}

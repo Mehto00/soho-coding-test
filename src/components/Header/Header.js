@@ -14,7 +14,9 @@ const header = (props) => {
   return (
     <section className="header">
       <div className="header__bar">
-      <span className="header__icon"><LeftArrow style={arrowSize}/></span><h1 className="header__city">Pasila</h1><span className="header__date">17.8-18.8</span></div>
+      <span className="header__icon"><LeftArrow style={arrowSize}/></span>
+      <h1 className="header__city">Pasila</h1>
+      <span className="header__date" aria-label="Visiting dates">17.8-18.8</span></div>
       
       <Carousel hotels={props.hotels}/>
 
@@ -23,8 +25,8 @@ const header = (props) => {
         <p className="header__hotel-address">
           {props.hotels[0].address.street}, {props.hotels[0].address.postCode}, {props.hotels[0].address.city}
         </p>
-        <button className="header__btn">Kartta</button>
-        <a href={props.hotels[0].webURL}><button className="header__btn">Tutustu hotelliin</button></a>
+        <button className="header__btn" aria-label="Hotels location on map">Kartta</button>
+        <a className="header__btn" role="button" aria-label="Read more about the hotel" href={props.hotels[0].webURL}>Tutustu hotelliin</a>
       </div>
     </section>
   )

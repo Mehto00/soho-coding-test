@@ -6,8 +6,8 @@ Hopefully you have access to the *available.json* -file. You have add it to **sr
 
 ## Install
 
-    git clone git@github.com:Mehto00/html5-test.git
-    cd html5-test
+    git clone git@github.com:Mehto00/soho-coding-test.git
+    cd soho-coding-test
     npm install
 
 ## Start & watch

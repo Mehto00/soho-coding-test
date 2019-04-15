@@ -1,0 +1,258 @@
+{
+    "hotels": [
+        {
+            "id": "123456789",
+            "name": "Four Seasons Hotel New York",
+            "address": {
+                "street": "57 East 57th Street",
+                "city": "New York",
+                "postCode": "10022",
+                "country": "U.S.A."
+            },
+            "webURL": "https://www.fourseasons.com/newyork/",
+            "imageURLs": [
+              "https://www.placecage.com/c/600/400",
+              "https://www.placecage.com/gif/600/400",
+              "https://www.placecage.com/600/400"
+            ],
+            "rooms": [
+                {
+                    "type": "A1",
+                    "title": "Standard Single",
+                    "imageURLs": [
+                        "https://www.placecage.com/g/500/300"
+                    ]
+                },
+                {
+                    "type": "A2",
+                    "title": "Standard Single for two",
+                    "imageURLs": [
+                        "https://www.placecage.com/500/300"
+                    ]
+                },
+                {
+                    "type": "A3",
+                    "title": "Standard Twin",
+                    "imageURLs": [
+                        "https://www.placecage.com/c/500/300"
+                    ]
+                },
+                {
+                    "type": "A4",
+                    "title": "Standard Twin, extra bed possibility",
+                    "imageURLs": [
+                        "https://www.placecage.com/g/500/300"
+                    ]
+                },
+                {
+                    "type": "A5",
+                    "title": "Standard King, extra bed possibility",
+                    "imageURLs": [
+                        "https://www.placecage.com/500/300"
+                    ]
+                },
+                {
+                    "type": "A6",
+                    "title": "Superior Twin, extra bed possibility",
+                    "imageURLs": [
+                        "https://www.placecage.com/c/500/300"
+                    ]
+                },
+                {
+                    "type": "A7",
+                    "title": "Superior King, extra bed possibility",
+                    "imageURLs": [
+                        "https://www.placecage.com/g/500/300"
+                    ]
+                },
+                {
+                    "type": "A8",
+                    "title": "Junior Suite",
+                    "imageURLs": [
+                        "https://www.placecage.com/500/300"
+                    ]
+                },
+                {
+                    "type": "A9",
+                    "title": "Suite",
+                    "imageURLs": [
+                        "https://www.placecage.com/c/500/300"
+                    ]
+                }
+            ]
+        }
+    ],
+    "availableHotels": [
+        {
+            "hotelId": "123456789",
+            "dateRange": {
+                "startDate": "2019-12-04",
+                "endDate": "2019-12-05"
+            },
+            "ratePlans": {
+                "ABC": {
+                    "description": {
+                        "title": "Daily Rate",
+                        "subTitle": "The room price includes",
+                        "items": [
+                            "accommodation for the number of people shown on the reservation",
+                            "breakfast",
+                            "opportunity to use the sauna during the hotel's customer sauna hours",
+                            "broadband access"
+                        ]
+                    },
+                    "condition": {
+                        "title": "Special conditions for the price",
+                        "items": [
+                            "to be paid in cash or with a card"
+                        ]
+                    },
+                    "cancellationTime": "2019-12-04T18:00:00"
+                }
+            },
+            "availableRoomConfigurations": [
+                {
+                    "configuration": {
+                        "adults": 2
+                    },
+                    "availableRooms": [
+                        {
+                            "type": "A1",
+                            "rates": [
+                                {
+                                    "ratePlan": "ABC",
+                                    "price": 23100
+                                }
+                            ]
+                        },
+                        {
+                            "type": "A2",
+                            "rates": [
+                                {
+                                    "ratePlan": "ABC",
+                                    "price": 23100
+                                }
+                            ]
+                        },
+                        {
+                            "type": "A3",
+                            "rates": [
+                                {
+                                    "ratePlan": "ABC",
+                                    "price": 23100
+                                }
+                            ]
+                        },
+                        {
+                            "type": "A4",
+                            "rates": [
+                                {
+                                    "ratePlan": "ABC",
+                                    "price": 23100
+                                }
+                            ]
+                        },
+                        {
+                            "type": "A5",
+                            "rates": [
+                                {
+                                    "ratePlan": "ABC",
+                                    "price": 24800
+                                }
+                            ]
+                        },
+                        {
+                            "type": "A6",
+                            "rates": [
+                                {
+                                    "ratePlan": "ABC",
+                                    "price": 24800
+                                }
+                            ]
+                        },
+                        {
+                            "type": "A7",
+                            "rates": [
+                                {
+                                    "ratePlan": "ABC",
+                                    "price": 26100
+                                }
+                            ]
+                        },
+                        {
+                            "type": "A8",
+                            "rates": [
+                                {
+                                    "ratePlan": "ABC",
+                                    "price": 28300
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "configuration": {
+                        "adults": 1,
+                        "children": 2
+                    },
+                    "availableRooms": [
+                        {
+                            "type": "A3",
+                            "rates": [
+                                {
+                                    "ratePlan": "ABC",
+                                    "price": 23100
+                                }
+                            ]
+                        },
+                        {
+                            "type": "A4",
+                            "rates": [
+                                {
+                                    "ratePlan": "ABC",
+                                    "price": 24100
+                                }
+                            ]
+                        },
+                        {
+                            "type": "A5",
+                            "rates": [
+                                {
+                                    "ratePlan": "ABC",
+                                    "price": 25800
+                                }
+                            ]
+                        },
+                        {
+                            "type": "A6",
+                            "rates": [
+                                {
+                                    "ratePlan": "ABC",
+                                    "price": 25800
+                                }
+                            ]
+                        },
+                        {
+                            "type": "A7",
+                            "rates": [
+                                {
+                                    "ratePlan": "ABC",
+                                    "price": 27100
+                                }
+                            ]
+                        },
+                        {
+                            "type": "A8",
+                            "rates": [
+                                {
+                                    "ratePlan": "ABC",
+                                    "price": 29300
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

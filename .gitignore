@@ -10,7 +10,6 @@
 
 # production
 /build
-/src/assets/availability.json
 /src/assets/mobile_ui.png
 
 # misc
